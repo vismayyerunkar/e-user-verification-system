@@ -1,0 +1,158 @@
+.App{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100vw;
+  height:100vh;
+  background-color:#0e0a0a;
+  color:cyan;
+  border:5px solid cyan;
+  box-sizing:border-box;
+}
+
+/* Default qr */
+#react-qrcode-logo{
+  width:300px !important;
+  height:300px !important;
+}
+
+.verification-holder{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
+.user-verified{
+  padding:10px;
+  padding-left:15px;
+  padding-right:15px;
+  background-color:#00ff7882;
+  border-radius:8px;
+}
+
+.user-unverified{
+  padding:10px;
+  padding-left:15px;
+  padding-right:15px;
+  background-color:#fd000056;
+  border-radius:8px;
+}
+
+
+.user-details{
+  width:50%;
+  height:80%;
+  background-color:#1e1d21;
+  border-radius:5px;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  padding:15px;
+}
+
+.user-details > div{
+  width:100%;
+  display:flex;
+  align-items:center;
+  /* justify-content:space-between; */
+}
+
+.user-details > div > h3{
+  margin-right:20px;
+  color:cyan;
+  margin-top:5px !important;
+  margin-bottom:15px !important;
+
+}
+.user-details > div > span{
+  margin-left:20px;
+}
+
+
+.img-holder{
+  width:100%;
+  height:40%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.img-holder > img{
+  width:150px;
+  height:90%;
+  background-color:white;
+  border-radius:5px;
+}
+
+.qr-scanner{
+  width:50%;
+  height:60%;
+  background-color:#1E1D21;
+  border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  border-radius:10px;
+}
+
+
+
+@media(min-width:0px) and (max-width:740px){
+  .user-details{
+    width:90%;
+    height:80%;
+    background-color:#1e1d21;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    color:white;
+  }
+
+  .qr-scanner{
+    width:90%;
+    height:60%;
+    background-color:#1e1d21;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    flex-direction:column;
+
+
+  }
+}
+
+@media(min-width:740px) and (max-width:800px){
+  .user-details{
+    width:70%;
+    height:80%;
+    background-color:#1e1d21;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    color:white;
+  }
+
+  .qr-scanner{
+    width:70%;
+    height:60%;
+    background-color:#1e1d21;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    flex-direction:column;
+
+
+  }
+}
+
